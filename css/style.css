@@ -1,41 +1,52 @@
+/* line 1, style.less */
 body {
-    margin: 0;
+  margin: 0;
 }
+/* line 4, style.less */
 .header {
-    width: 100%;
-    background: url("../img/Header-Back.png") repeat-x;
-    padding: 20px 0;
+  width: 100%;
+  background: url("../img/Header-Back.png") repeat-x;
+  padding: 20px 0;
 }
+/* line 9, style.less */
 .clear {
-    clear: both;
+  clear: both;
 }
-.header-elements{
-    width: 950px;
-    margin: auto;
+/* line 12, style.less */
+.header-elements {
+  width: 950px;
+  margin: auto;
 }
+/* line 16, style.less */
 .header-elements img {
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
 }
+/* line 20, style.less */
 .menu {
-    float: right;
+  float: right;
 }
+/* line 22, style.less */
 .menu li {
-    display: inline-block;
-    padding: 0 15px;
+  display: inline-block;
+  padding: 0 15px;
 }
+/* line 27, style.less */
 .menu a {
-    padding-top: 10px;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
+/* line 36, style.less */
 .menu .img {
-    margin: auto;
-    width: 21%;
+  margin: auto;
+  width: 21%;
 }
+/* line 40, style.less */
 .menu img {
-    width: 22px;
+  width: 22px;
 }
+/*# sourceMappingURL=style.css.map */
