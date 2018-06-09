@@ -1,27 +1,41 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova.ttf);
+}
+@font-face {
+  font-family: PTSans;
+  src: url(fonts/PTSans.ttf);
+}
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 .header {
   width: 100%;
   background: url("../img/Header-Back.png") repeat-x;
-  padding: 20px 0;
+  padding: 20px 0 12px 0;
+  font-family: ProximaNova;
 }
 .clear {
   clear: both;
 }
 .header-elements{
-  width: 950px;
+  width: 800px;
   margin: auto;
 }
 .header-elements img {
-  width: 25%;
+  width: 42%;
   float: left;
 }
 .menu {
+  width: 458px;
   float: right;
   li {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 4px 0 15px;
+  }
+  li:nth-child(4) {
+    padding: 0 0 0 11px;
   }
 
   a {
@@ -29,15 +43,46 @@ body {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
   }
 
   .img {
     margin: auto;
     width: 21%;
+    padding-bottom: 29px;
   }
   img {
     width: 22px;
+  }
+}
+.flexslider-container {
+  position: relative;
+}
+.slider-text {
+  position: absolute;
+  top: 37%;
+  left: 18.5%;
+  font-family: ProximaNova;
+  text-align: right;
+  h1 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+  }
+  p {
+    margin: 2px 0;
+    font-family: PTSans;
+    font-size: 15px;
+  }
+  .button-registration {
+    width: 36%;
+    float: right;
+    background: #FF8C00;
+    color: #ffffff;
+    padding: 16px;
+    margin-top: 23px;
+    text-align: center;
+    font-size: 19px;
   }
 }

@@ -1,52 +1,103 @@
-/* line 1, style.less */
-body {
-  margin: 0;
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova.ttf);
 }
-/* line 4, style.less */
+@font-face {
+  font-family: PTSans;
+  src: url(fonts/PTSans.ttf);
+}
+/* line 9, style.less */
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+/* line 13, style.less */
 .header {
   width: 100%;
   background: url("../img/Header-Back.png") repeat-x;
-  padding: 20px 0;
+  padding: 20px 0 12px 0;
+  font-family: ProximaNova;
 }
-/* line 9, style.less */
+/* line 19, style.less */
 .clear {
   clear: both;
 }
-/* line 12, style.less */
+/* line 22, style.less */
 .header-elements {
-  width: 950px;
+  width: 800px;
   margin: auto;
 }
-/* line 16, style.less */
+/* line 26, style.less */
 .header-elements img {
-  width: 25%;
+  width: 42%;
   float: left;
 }
-/* line 20, style.less */
+/* line 30, style.less */
 .menu {
+  width: 458px;
   float: right;
 }
-/* line 22, style.less */
+/* line 33, style.less */
 .menu li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 4px 0 15px;
 }
-/* line 27, style.less */
+/* line 37, style.less */
+.menu li:nth-child(4) {
+  padding: 0 0 0 11px;
+}
+/* line 41, style.less */
 .menu a {
   padding-top: 10px;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
-/* line 36, style.less */
+/* line 50, style.less */
 .menu .img {
   margin: auto;
   width: 21%;
+  padding-bottom: 29px;
 }
-/* line 40, style.less */
+/* line 55, style.less */
 .menu img {
   width: 22px;
+}
+/* line 59, style.less */
+.flexslider-container {
+  position: relative;
+}
+/* line 62, style.less */
+.slider-text {
+  position: absolute;
+  top: 37%;
+  left: 18.5%;
+  font-family: ProximaNova;
+  text-align: right;
+}
+/* line 68, style.less */
+.slider-text h1 {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+/* line 73, style.less */
+.slider-text p {
+  margin: 2px 0;
+  font-family: PTSans;
+  font-size: 15px;
+}
+/* line 78, style.less */
+.slider-text .button-registration {
+  width: 36%;
+  float: right;
+  background: #FF8C00;
+  color: #ffffff;
+  padding: 16px;
+  margin-top: 23px;
+  text-align: center;
+  font-size: 19px;
 }
 /*# sourceMappingURL=style.css.map */
