@@ -1,5 +1,5 @@
-[7732:4200:0528/234204.706:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
-[7732:4200:0528/234204.706:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Яна\AppData\Local\Koala\User Data\ShaderCache\GPUCache to C:\Users\Яна\AppData\Local\Koala\User Data\ShaderCache\old_GPUCache_000
-[7732:4200:0528/234204.706:ERROR:disk_cache.cc(172)] Unable to create cache
-[7732:4200:0528/234204.706:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
-[7732:4200:0528/234204.721:ERROR:browser_gpu_channel_host_factory.cc(108)] Failed to launch GPU process.
+[5292:2484:0726/192029.136:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[5292:2484:0726/192029.136:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Яна\AppData\Local\Koala\User Data\ShaderCache\GPUCache to C:\Users\Яна\AppData\Local\Koala\User Data\ShaderCache\old_GPUCache_000
+[5292:2484:0726/192029.136:ERROR:disk_cache.cc(172)] Unable to create cache
+[5292:2484:0726/192029.136:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[5292:2484:0726/192029.276:ERROR:browser_gpu_channel_host_factory.cc(108)] Failed to launch GPU process.
