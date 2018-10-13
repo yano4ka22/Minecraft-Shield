@@ -12,17 +12,37 @@ window.onload = function() {
         popup.style.display = "none";
     });
 
-    let rounds = document.getElementsByClassName("round-block"),
-        count = document.getElementsByClassName("count-active-people"),
+    let countOnServer = document.getElementsByClassName("count-on-server"),
+        circle = document.getElementsByClassName("circle"),
+        rounds = document.getElementsByClassName("round-block"),
+        countActive = document.getElementsByClassName("count-active-people"),
         percentFill = document.getElementsByClassName("percent-fill"),
         maxCount = 100,
         percent;
 
-    rounds = Array.from(rounds);
-
-    rounds.map( function(round, index) {
-        percent = (count[index].innerText * 100) / maxCount;
-        console.log(round);
+    Array.from(countOnServer).map( function(round) {
+        round.innerHTML = maxCount;
+    });
+    Array.from(circle).map( function(round, index) {
+        let myCircle = Circles.create({
+            id:                  round.id,
+            radius:              15,
+            value:               countActive[index].innerText,
+            maxValue:            100,
+            width:               1,
+            text:                function(value){return value + '%';},
+            colors:              ['#3e3e3e', '#ff7100'],
+            duration:            300,
+            wrpClass:            'circles-wrp',
+            textClass:           'circles-text',
+            valueStrokeClass:    'circles-valueStroke',
+            maxValueStrokeClass: 'circles-maxValueStroke',
+            styleWrapper:        true,
+            styleText:           true
+        });
+    });
+    Array.from(rounds).map( function(round, index) {
+        percent = (countActive[index].innerText * 100) / maxCount;
         if(percent > 88) {
             round.classList.add("round-100");
         } else if (percent > 75) {
