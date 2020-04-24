@@ -10,6 +10,11 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+button,
+a,
+.close {
+  cursor: pointer;
+}
 .h2 {
   font-weight: bold;
   padding: 15px;
@@ -25,6 +30,11 @@ body {
   background: url("../img/Header-Back.png") repeat-x;
   padding: 20px 0 8px 0;
   font-family: ProximaNova;
+}
+.banner-container,
+.banner-container img {
+  position: relative;
+  width: 100%;
 }
 .clear {
   clear: both;
@@ -68,18 +78,23 @@ body {
 .menu img {
   width: 22px;
 }
+.menu img:hover {
+  width: 23px;
+  cursor: pointer;
+}
 .flexslider-container {
   position: relative;
   height: 345px;
 }
 .button-registration {
-  background: linear-gradient(to top, #ff7100, #ff8c00);
+  background: linear-gradient(to top, #ff7100, #FF8C00);
   color: #ffffff;
-  padding: 13px;
+  padding: 14px;
   text-align: center;
   font-size: 18px;
   text-shadow: 1px 3px 3px #30363e;
   box-shadow: 0 0 12px -4px #dddddd;
+  border: none;
   border-bottom: 2px solid #7e7e7e;
 }
 .button-registration:hover {
@@ -88,7 +103,7 @@ body {
 .slider-text {
   position: absolute;
   top: 37%;
-  left: 18.5%;
+  right: 22.5%;
   font-family: ProximaNova;
   text-align: right;
 }
@@ -103,7 +118,7 @@ body {
   font-size: 14px;
 }
 .slider-text .button-registration {
-  width: 37%;
+  width: 170px;
   float: right;
   margin-top: 23px;
 }
@@ -124,7 +139,7 @@ body {
 }
 .content {
   width: 760px;
-  margin: auto;
+  margin: -4px auto auto;
   font-family: PTSans;
 }
 .content .content-left {
@@ -134,7 +149,7 @@ body {
 .content .block-news {
   width: 100%;
   float: left;
-  margin: 20px 0 2px 15px;
+  margin: 0 0 10px 15px;
   background-color: white;
   box-shadow: 0 0 20px 3px #c8c8c8;
 }
@@ -179,7 +194,6 @@ body {
   width: 26%;
   height: auto;
   float: right;
-  margin-top: 20px;
   background-color: #dddddd;
   text-align: center;
 }
@@ -219,6 +233,7 @@ body {
   border: 1px solid #c8c8c8;
   list-style: none;
   text-align: left;
+  cursor: pointer;
 }
 .content .right-block .navigation ul li a {
   color: #404040;
@@ -248,7 +263,7 @@ body {
   padding: 0;
 }
 .content .right-block .monitoring ul li {
-  padding: 0 10px 10px 10px;
+  padding: 10px;
   margin-bottom: 3px;
   background-color: #3e3e3e;
   list-style: none;
@@ -266,12 +281,11 @@ body {
   height: 100%;
   vertical-align: middle;
 }
-.content .right-block .monitoring ul .circle {
-  position: relative;
-  top: 8px;
+.content .right-block .monitoring ul .round-block {
   width: 19%;
+  height: 28px;
+  margin-top: 3px;
   color: #ff7100;
-  margin-left: -3px;
 }
 .content .right-block .monitoring ul .round-block p {
   display: inline-block;
@@ -319,16 +333,19 @@ body {
   background-size: inherit;
 }
 .content .right-block .monitoring ul .server-filling {
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 .content .right-block .monitoring ul .server-filling .count-people {
   display: block;
   color: #ffffff;
   background: url(../img/man-user.png) 3% 60% no-repeat;
 }
-.content .right-block .monitoring ul .server-filling .count-people .count-active-people {
+.content .right-block .monitoring ul .server-filling .count-people span {
   padding-left: 15px;
   color: #ff7100;
+}
+.content .right-block .monitoring ul .server-filling .count-people .count-on-server {
+  padding-left: 0;
 }
 .content .right-block .monitoring .record-today {
   margin-top: 13px;

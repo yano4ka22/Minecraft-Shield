@@ -3,238 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <title>Minecraft Shield</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-            crossorigin="anonymous"></script>
-    <script src="flexslider/jquery.flexslider-min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <script src="circles-master/circles.min.js"></script>
-    <link rel="stylesheet" href="flexslider/flexslider.css">
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="header-elements">
-                <img src="img/Logo.png" alt="logo">
-                <div class="menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <div class="img">
-                                    <img src="img/coins.png" alt="Донат услуги">
-                                </div>
-                                <div class="clear"></div>
-                                <a href="">Донат услуги</a>
-                            </li>
-                            <li>
-                                <div class="img">
-                                    <img src="img/play-button.png" alt="Как начать игру?">
-                                </div>
-                                <div class="clear"></div>
-                                <a href="">Как начать игру?</a>
-                            </li>
-                            <li>
-                                <div class="img">
-                                    <img src="img/contract.png" alt="Правила">
-                                </div>
-                                <div class="clear"></div>
-                                <a href="">Правила</a>
-                            </li>
-                            <li>
-                                <div class="img">
-                                    <img src="img/chat.png" alt="Форум">
-                                </div>
-                                <div class="clear"></div>
-                                <a href="">Форум</a>
-                            </li>
-                        </ul>
-                    </nav>
+<div class="wrapper">
+    <div class="header">
+        <div class="header-elements">
+            <img src="img/Logo.png" alt="logo">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <div class="img">
+                                <img src="img/coins.png" alt="Донат услуги">
+                            </div>
+                            <div class="clear"></div>
+                            <a href="">Донат услуги</a>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="img/play-button.png" alt="Как начать игру?">
+                            </div>
+                            <div class="clear"></div>
+                            <a href="">Как начать игру?</a>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="img/contract.png" alt="Правила">
+                            </div>
+                            <div class="clear"></div>
+                            <a href="">Правила</a>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="img/chat.png" alt="Форум">
+                            </div>
+                            <div class="clear"></div>
+                            <a href="">Форум</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="banner-container">
+        <img src="flexSlider/img/Banner1.png" alt="Баннер"/>
+        <div class="slider-text">
+            <h1>ПРИВЕТСТВУЕМ НА MINECRAFTSHIELD.RU</h1>
+            <p>Рады видеть вас на лучшем портале minecraft!</p>
+            <button class="button-registration" id="button-registration">РЕГИСТРАЦИЯ</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <div class="content-left">
+            <div class="block-news">
+                <div class="title-news h2">Обновление сервера</div>
+                <div class="image-news"></div>
+                <div class="description-news">
+                    <div class="text">Повседневная практика показывает, что новая модель организационной деятельности позволяет оценить значение системы обучения кадров, соответсвует насущным потребностям. Друзья!</div>
+                    <div class="service-block">
+                        <button class="green-button">Подробнее</button>
+                        <div class="date-publication">
+                            <div class="calendar"></div>
+                            <p>20.03.2018 в 18:46</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="clear"></div>
+            </div>
+            <div class="block-news">
+                <div class="title-news h2">Обновление сервера</div>
+                <div class="image-news"></div>
+                <div class="description-news">
+                    <div class="text">Повседневная практика показывает, что новая модель организационной деятельности позволяет оценить значение системы обучения кадров, соответсвует насущным потребностям. Друзья!</div>
+                    <div class="service-block">
+                        <button class="green-button">Подробнее</button>
+                        <div class="date-publication">
+                            <div class="calendar"></div>
+                            <p>20.03.2018 в 18:46</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="flexslider-container">
-            <div class="flexslider">
-                <ul class="slides">
+        <div class="right-block">
+            <div class="authorization">
+                <div class="h2">Авторизация</div>
+                <form>
+                    <input type="text" placeholder="Логин">
+                    <input type="text" placeholder="Пароль">
+                    <button class="button-registration">ВОЙТИ</button>
+                </form>
+                <a class="registration" href="#">Регистрация</a>
+                <a class="remind-pass" href="#">Забыли пароль?</a>
+                <div class="clear"></div>
+            </div>
+            <div class="navigation">
+                <div class="h2">Навигация</div>
+                <ul>
                     <li>
-                        <img src="flexSlider/img/Banner1.png" />
-                        <div class="slider-text">
-                            <h1>ПРИВЕТСТВУЕМ НА MINECRAFTSHIELD.RU</h1>
-                            <p>Рады видеть вас на лучшем портале minecraft!</p>
-                            <div class="button-registration">РЕГИСТРАЦИЯ</div>
-                        </div>
+                        <a href="#">Скачать клиент игры</a>
                     </li>
                     <li>
-                        <img src="flexSlider/img/blogmcnet.png" />
+                        <a href="#">Топ голосующих</a>
+                    </li>
+                    <li>
+                        <a href="#">Кейсы</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Информация о серверах</a>
+                    </li>
+                    <li>
+                        <a href="#">Команды на серверах</a>
+                    </li>
+                    <li>
+                        <a href="#">Наборы в модераторы</a>
+                    </li>
+                    <li>
+                        <a href="#">Радио и чат</a>
                     </li>
                 </ul>
             </div>
+            <div class="monitoring">
+                <div class="h2">Мониторинг</div>
+                <ul>
+                    <li>
+                        <div class="circle" id="circles-1"></div>
+                        <div class="server-filling">Сервер номер раз
+                            <div class="count-people"><span class="count-active-people">100</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-2"></div>
+                        <div class="server-filling">Сервер номер два
+                            <div class="count-people"><span class="count-active-people">88</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-3"></div>
+                        <div class="server-filling">Сервер номер три
+                            <div class="count-people"><span class="count-active-people">75</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-4"></div>
+                        <div class="server-filling">Сервер номер четыре
+                            <div class="count-people"><span class="count-active-people">63</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-5"></div>
+                        <div class="server-filling">Сервер номер пять
+                            <div class="count-people"><span class="count-active-people">50</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-6"></div>
+                        <div class="server-filling">Сервер номер шесть
+                            <div class="count-people"><span class="count-active-people">38</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-7"></div>
+                        <div class="server-filling">Сервер номер семь
+                            <div class="count-people"><span class="count-active-people">25</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle" id="circles-8"></div>
+                        <div class="server-filling">Сервер номер восемь
+                            <div class="count-people"><span class="count-active-people">13</span> | <span class="count-on-server"></span></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="record-today">Рекорд за сегодня: </div>
+                <div class="record-all-time">Рекорд за все время: </div>
+            </div>
         </div>
+
         <div class="clear"></div>
-        <div class="content">
-            <div class="content-left">
-                <div class="block-news">
-                    <div class="title-news h2">Обновление сервера</div>
-                    <div class="image-news"></div>
-                    <div class="description-news">
-                        <div class="text">Повседневная практика показывает, что новая модель организационной деятельности позволяет оценить значение системы обучения кадров, соответсвует насущным потребностям. Друзья!</div>
-                        <div class="service-block">
-                            <button class="green-button">Подробнее</button>
-                            <div class="date-publication">
-                                <div class="calendar"></div>
-                                <p>20.03.2018 в 18:46</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="block-news">
-                    <div class="title-news h2">Обновление сервера</div>
-                    <div class="image-news"></div>
-                    <div class="description-news">
-                        <div class="text">Повседневная практика показывает, что новая модель организационной деятельности позволяет оценить значение системы обучения кадров, соответсвует насущным потребностям. Друзья!</div>
-                        <div class="service-block">
-                            <button class="green-button">Подробнее</button>
-                            <div class="date-publication">
-                                <div class="calendar"></div>
-                                <p>20.03.2018 в 18:46</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <img src="img/Shield-Active.png" alt="logo">
+            <div class="text">
+                © 2020 MINECRAFTSHIELD.RU
+                <p>All rights reserved.</p>
             </div>
-            <div class="right-block">
-                <div class="authorization">
-                    <div class="h2">Авторизация</div>
-                    <form>
-                        <input type="text" placeholder="Логин">
-                        <input type="text" placeholder="Пароль">
-                        <button id="btn-registration" class="button-registration">ВОЙТИ</button>
-                    </form>
-                    <a class="registration" href="#">Регистрация</a>
-                    <a class="remind-pass" href="#">Забыли пароль?</a>
-                    <div class="clear"></div>
-                </div>
-                <div class="navigation">
-                    <div class="h2">Навигация</div>
-                    <ul>
-                        <li>
-                            <a href="#">Скачать клиент игры</a>
-                        </li>
-                        <li>
-                            <a href="#">Топ голосующих</a>
-                        </li>
-                        <li>
-                            <a href="#">Кейсы</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">Информация о серверах</a>
-                        </li>
-                        <li>
-                            <a href="#">Команды на серверах</a>
-                        </li>
-                        <li>
-                            <a href="#">Наборы в модераторы</a>
-                        </li>
-                        <li>
-                            <a href="#">Радио и чат</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="monitoring">
-                    <div class="h2">Мониторинг</div>
-                    <ul>
-                        <li>
-                            <div class="circle" id="circles-1"></div>
-                            <div class="server-filling">Сервер номер раз
-                                <div class="count-people"><span class="count-active-people">100</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-2"></div>
-                            <div class="server-filling">Сервер номер два
-                                <div class="count-people"><span class="count-active-people">88</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-3"></div>
-                            <div class="server-filling">Сервер номер три
-                                <div class="count-people"><span class="count-active-people">75</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-4"></div>
-                            <div class="server-filling">Сервер номер четыре
-                                <div class="count-people"><span class="count-active-people">63</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-5"></div>
-                            <div class="server-filling">Сервер номер пять
-                                <div class="count-people"><span class="count-active-people">50</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-6"></div>
-                            <div class="server-filling">Сервер номер шесть
-                                <div class="count-people"><span class="count-active-people">38</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-7"></div>
-                            <div class="server-filling">Сервер номер семь
-                                <div class="count-people"><span class="count-active-people">25</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle" id="circles-8"></div>
-                            <div class="server-filling">Сервер номер восемь
-                                <div class="count-people"><span class="count-active-people">13</span> | <span class="count-on-server"></span></div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="record-today">Рекорд за сегодня: </div>
-                    <div class="record-all-time">Рекорд за все время: </div>
-                </div>
-            </div>
-
-            <div class="clear"></div>
         </div>
-        <div class="footer">
-            <div class="copyright">
-                <img src="img/Shield-Active.png" alt="logo">
-                <div class="text">
-                    © 2018 MINECRAFTSHIELD.RU
-                    <p>All rights reserved.</p>
-                </div>
-            </div>
 
+    </div>
+</div>
+<div id="popup-registration">
+    <div class="field"></div>
+    <div class="popup">
+        <div id="close">×</div>
+        <div class="h2">Спасибо за регистрацию!</div>
+        <div class="bonus">
+            <div class="content-bonus">
+                <img src="img/Shield-Gold.png" alt="logo">
+                <div class="count"> × 50</div>
+            </div>
+        </div>
+        <div class="popup-text-thanks">
+            Спасибо, что зарегистрировались на нашем сервере, в знак благодарности мы дарим вам 50 Shield-ов (внутренняя валюта сервера)
+            <button class="green-button">СПАСИБО</button>
         </div>
     </div>
-    <div id="popup-registration">
-        <div class="field"></div>
-        <div class="popup">
-            <div id="close">×</div>
-            <div class="h2">Спасибо за регистрацию!</div>
-            <div class="bonus">
-                <div class="content-bonus">
-                    <img src="img/Shield-Gold.png" alt="logo">
-                    <div class="count"> × 50</div>
-                </div>
-            </div>
-            <div class="popup-text-thanks">
-                Спасибо, что зарегистрировались на нашем сервере, в знак благодарности мы дарим вам 50 Shield-ов (внутренняя валюта сервера)
-                <button class="green-button">СПАСИБО</button>
-            </div>
-        </div>
-    </div>
-    <script>
-        $(window).load(function () {
-            $('.flexslider').flexslider({
-                animation: "slide"
-            });
-        });
-
-    </script>
+</div>
 </body>
 </html>

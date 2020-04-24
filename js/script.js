@@ -1,6 +1,6 @@
 window.onload = function() {
     let close = document.getElementById("close"),
-        button = document.getElementById("btn-registration"),
+        button = document.getElementById("button-registration"),
         popup = document.getElementById("popup-registration");
 
     button.addEventListener("click", function () {
